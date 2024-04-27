@@ -175,7 +175,7 @@ header .navbar li a:hover{
 
 @media screen and (max-width: 992px) {
     .contenido .tituloBox {
-        max-width: 80%; /* Ajusta el ancho máximo para dispositivos medianos */
+        max-width: 90%; /* Ajusta el ancho máximo para dispositivos medianos */
         margin: 0 auto; /* Centra horizontalmente */
     }
 }
@@ -186,7 +186,7 @@ header .navbar li a:hover{
     }
 
     header .logo {
-        font-size: 1.2em; /* Reducido el tamaño de fuente para dispositivos pequeños */
+        font-size: 1em; /* Reducido el tamaño de fuente para dispositivos pequeños */
     }
 
     .contenido .tituloBox {
@@ -196,7 +196,13 @@ header .navbar li a:hover{
         font-size: 1.2em; /* Reducido el tamaño de fuente para dispositivos pequeños */
     }
 
+    .redesociales {
+        right: 10px; /* Ajusta la posición para dispositivos pequeños */
+        bottom: 10px; /* Ajusta la posición para dispositivos pequeños */
+        padding: 0 10px 30px; /* Ajusta el padding para dispositivos pequeños */
+    }
+
     .redesociales li {
-        font-size: 20px; /* Reducido el tamaño de fuente para dispositivos pequeños */
+        font-size: 16px; /* Reducido el tamaño de fuente para dispositivos pequeños */
     }
 }
