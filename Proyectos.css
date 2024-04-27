@@ -4,15 +4,14 @@
 body {
    
 
-        margin: 0;
-        padding: 0;
-        background-image: url('img/proyec.jpg');
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat; 
-        height: 100vh; /* Establece la altura del body al 100% del viewport height */
-        width: 100vw; /* Establece el ancho del body al 100% del viewport width */
-        overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si la imagen es más ancha que el viewport */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/proyec.jpg');
+    background-size: cover;
+    background-position: center;
     }
     
   
