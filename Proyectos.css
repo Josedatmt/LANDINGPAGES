@@ -1,0 +1,66 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/proyec.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  
+  }
+  
+  header {
+margin-top: 40px;
+    color: #fefefe; /* Darker text */
+    text-align: center;
+    padding: 20px;
+   
+  }
+  
+  .proyectos {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .proyecto {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(7, 120, 242);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out; /* Smooth hover animation */
+  }
+  
+  .proyecto:hover {
+    transform: scale(1.02); /* Slight hover zoom */
+  }
+  
+  .proyecto img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .proyecto h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #007bff; /* Blue heading */
+  }
+  
+  .proyecto p {
+    color: #333; /* Darker paragraph text */
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

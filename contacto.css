@@ -1,0 +1,14 @@
+body{
+   
+    width: 100vw; /* Ancho igual al 100% del viewport */
+    height: 100vh; /* Altura igual al 100% del viewport */
+
+    text-align: center;
+    font-size: medium;
+    margin-top: 50px;
+    background-image: url(img/contacto.jpg);
+    background-size: cover; /* Cubrir todo el cuerpo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que se repita la imagen de fondo */
+}
+
