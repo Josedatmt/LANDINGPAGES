@@ -191,18 +191,32 @@ header .navbar li a:hover{
 
     .contenido .tituloBox {
         max-width: 90%; /* Ajusta el ancho máximo para dispositivos pequeños */
-        margin: 0 auto; /* Centra horizontalmente */
+        margin: 20px auto; /* Centra horizontalmente y agrega espacio superior */
         padding: 20px; /* Añade un poco de espacio interno */
-        font-size: 1.2em; /* Reducido el tamaño de fuente para dispositivos pequeños */
+        font-size: 1em; /* Reducido el tamaño de fuente para dispositivos pequeños */
+    }
+
+    .contenido .tituloBox h2 {
+        font-size: 3em; /* Reducido el tamaño de fuente del título principal para dispositivos pequeños */
     }
 
     .redesociales {
         right: 10px; /* Ajusta la posición para dispositivos pequeños */
         bottom: 10px; /* Ajusta la posición para dispositivos pequeños */
-        padding: 0 10px 30px; /* Ajusta el padding para dispositivos pequeños */
+        padding: 0 10px 20px; /* Ajusta el padding para dispositivos pequeños */
     }
 
     .redesociales li {
-        font-size: 16px; /* Reducido el tamaño de fuente para dispositivos pequeños */
+        font-size: 14px; /* Reducido el tamaño de fuente para dispositivos pequeños */
+    }
+
+    header .navbar {
+        flex-direction: column; /* Cambia la dirección del flexbox a columna */
+        align-items: center; /* Centra horizontalmente los elementos */
+    }
+
+    header .navbar li {
+        margin: 5px 0; /* Ajusta el margen entre elementos */
     }
 }
+
